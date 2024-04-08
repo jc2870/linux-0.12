@@ -16,6 +16,13 @@
 
 1. docker方式
 
+    ```
+    # 一键设置环境并且运行
+    ./q # 将会准备docker环境，包括安装docker,设置代理，拉取镜像   环境准备好后会自动运行
+    ``` 
+    
+    或者手动准备环境
+
     ```shell
     # 1. 从docker hub中拉取镜像
     docker pull ultraji/ubuntu-xfce-novnc

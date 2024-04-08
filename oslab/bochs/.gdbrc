@@ -1,4 +1,4 @@
-break main
+break startup_32
 target remote localhost:1234
 handle SIGSEGV nostop noprint ignore
 continue
